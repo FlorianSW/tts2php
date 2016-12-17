@@ -1,0 +1,24 @@
+{
+	"name": "tts2php",
+	"type": "project",
+	"description": "A php based script, which uses a locally installed Text-to-Speech service to generate mp3 files from arbitrary text strings.",
+	"homepage": "https://github.com/FlorianSW/tts2php",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Florian Schmidt",
+			"email": "florian.schmidt.welzow@t-online.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"TTS2PHP\\": "src/"
+		}
+	},
+	"require": {
+		"monolog/monolog": "^1.22",
+		"b-b3rn4rd/phplame": "dev-master",
+		"nass600/get-id3": "^1.0",
+		"predis/predis": "^1.1"
+	}
+}
